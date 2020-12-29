@@ -7,6 +7,9 @@
     <list default="true" id="f46e413a-c606-4db1-a6cd-17700e79b9da" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/activiti-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/test/actSpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/activiti-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/itheima/test/actSpringTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,6 +53,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29770115" />
@@ -57,6 +61,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitCompanyProject\activiti_spring\src\test\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\gitCompanyProject\activiti_spring\src\main\resources" />
       <recent name="E:\gitCompanyProject\activiti_spring" />
@@ -109,7 +116,7 @@
       <updated>1609203933705</updated>
       <workItem from="1609203935027" duration="4553000" />
       <workItem from="1609210735623" duration="585000" />
-      <workItem from="1609213110033" duration="850000" />
+      <workItem from="1609213110033" duration="1176000" />
     </task>
     <servers />
   </component>
@@ -125,10 +132,42 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="136" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1609205767222" />
-    <state x="380" y="163" key="IDE.errors.dialog" timestamp="1609206003368">
+    <state width="1540" height="421" key="GridCell.Tab.0.bottom" timestamp="1609214440864">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="380" y="163" key="IDE.errors.dialog/0.0.1600.860@0.0.1600.860" timestamp="1609206003368" />
+    <state width="1540" height="421" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1609214440864" />
+    <state width="1540" height="421" key="GridCell.Tab.0.center" timestamp="1609214440864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="421" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1609214440864" />
+    <state width="1540" height="421" key="GridCell.Tab.0.left" timestamp="1609214440864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="421" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1609214440864" />
+    <state width="1540" height="421" key="GridCell.Tab.0.right" timestamp="1609214440864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="421" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1609214440864" />
+    <state width="1540" height="421" key="GridCell.Tab.1.bottom" timestamp="1609214440864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="421" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1609214440864" />
+    <state width="1540" height="421" key="GridCell.Tab.1.center" timestamp="1609214440864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="421" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1609214440864" />
+    <state width="1540" height="421" key="GridCell.Tab.1.left" timestamp="1609214440864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="421" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1609214440864" />
+    <state width="1540" height="421" key="GridCell.Tab.1.right" timestamp="1609214440864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1540" height="421" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1609214440864" />
+    <state x="380" y="163" key="IDE.errors.dialog" timestamp="1609214392988">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="380" y="163" key="IDE.errors.dialog/0.0.1600.860@0.0.1600.860" timestamp="1609214392988" />
     <state x="280" y="3" key="SettingsEditor" timestamp="1609205638484">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
